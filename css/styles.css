@@ -1,0 +1,156 @@
+/* Define o estilo padrão para o corpo do documento */
+body {
+    font-family: Arial, sans-serif; /* Define a família de fontes para o corpo do documento */
+    margin: 0; /* Remove as margens padrão do corpo do documento */
+    padding: 0; /* Remove o preenchimento padrão do corpo do documento */
+}
+
+/* Define o estilo para a seção principal do conteúdo */
+main {
+    background: #141414; /* Define o fundo da seção principal */
+}
+
+/* Define o estilo para o cabeçalho */
+header {
+    text-align: center; /* Centraliza o conteúdo do cabeçalho */
+    padding: 20px; /* Adiciona espaçamento interno ao redor do cabeçalho */
+    background-color: #141414; /* Define o fundo do cabeçalho */
+    color: #ccc; /* Define a cor do texto do cabeçalho */
+}
+
+/* Define o estilo para o título do cabeçalho */
+header h1 {
+    font-size: 36px; /* Define o tamanho da fonte do título */
+    color: orange; /* Define a cor do título */
+}
+
+/* Define o estilo para imagens com a classe 'produto' */
+img.produto {
+    max-width: 300px; /* Define a largura máxima da imagem */
+    height: 300px; /* Define a altura da imagem */
+    background-color: orange; /* Define a cor de fundo da imagem */
+    border-radius: 10px; /* Adiciona cantos arredondados à imagem */
+}
+
+/* Define o estilo para títulos de nível 2 */
+h2 {
+    color: orange; /* Define a cor do texto */
+}
+
+/* Define o estilo para parágrafos */
+p {
+    color: rgba(228, 227, 226, 0.637); /* Define a cor do texto */
+}
+
+/* Define o estilo para parágrafos quando o mouse está sobre eles */
+p:hover {
+    color: #ccc; /* Define a cor do texto ao passar o mouse */
+}
+
+/* Define o estilo para botões */
+button {
+    color: rgb(10, 9, 9); /* Define a cor do texto do botão */
+    background: orange; /* Define a cor de fundo do botão */
+    border-radius: 6px; /* Adiciona cantos arredondados ao botão */
+    width: 100px; /* Define a largura do botão */
+}
+
+/* Define o estilo para botões quando o mouse está sobre eles */
+button:hover {
+    color: #dfd9d9bb; /* Define a cor do texto ao passar o mouse */
+}
+
+/* Define o estilo para a seção de produtos */
+#produtos {
+    display: flex; /* Define um layout de exibição flexível */
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    gap: 20px; /* Define o espaçamento entre os itens */
+    padding: 20px; /* Adiciona espaçamento interno à seção de produtos */
+    background: #141414; /* Define o fundo da seção de produtos */
+}
+
+/* Define o estilo para a div de produto */
+div.product {
+    text-align: center; /* Centraliza o conteúdo da div */
+    max-width: 300px; /* Define a largura máxima da div */
+    padding: 20px; /* Adiciona espaçamento interno à div */
+    border: 1px solid #ccc; /* Adiciona uma borda sólida à div */
+    border-radius: 10px; /* Adiciona cantos arredondados à div */
+    background: rgb(25, 25, 26); /* Define o fundo da div */
+}
+
+/* Define o estilo para a div de produto quando o mouse está sobre ela */
+.product:hover {
+    color: #ddd3d3; /* Define a cor do texto ao passar o mouse */
+}
+
+/* Define o estilo para a seção de benefícios */
+#beneficios {
+    text-align: center; /* Centraliza o conteúdo da seção */
+    padding: 20px; /* Adiciona espaçamento interno à seção */
+    background-color: orange; /* Define o fundo da seção */
+}
+
+/* Define o estilo para o título 2 da seção de benefícios */
+h2.titulo2 {
+    color: #141414; /* Define a cor do texto */
+}
+
+/* Define o estilo para a seção de depoimentos */
+#depoimentos {
+    text-align: center; /* Centraliza o conteúdo da seção */
+    padding: 3px; /* Adiciona espaçamento interno à seção */
+    background-color: white; /* Define o fundo da seção */
+}
+
+/* Define o estilo para cada depoimento */
+.testimonial {
+    margin-bottom: 5px; /* Adiciona espaçamento inferior entre os depoimentos */
+}
+
+/* Define o estilo para a seção de contato */
+#contato {
+    text-align: center; /* Centraliza o conteúdo da seção */
+    padding: 20px; /* Adiciona espaçamento interno à seção */
+    background-color: orange; /* Define o fundo da seção */
+}
+
+/* Define o estilo para a classe 'cont' */
+.cont {
+    background: #141414; /* Define o fundo da classe */
+    color: #ccc; /* Define a cor do texto */
+}
+
+/* Define o estilo para formulários */
+form {
+    display: flex; /* Define um layout de exibição flexível */
+    flex-direction: column; /* Define a direção dos elementos como coluna */
+    max-width: 400px; /* Define a largura máxima do formulário */
+    margin: 0 auto; /* Centraliza o formulário horizontalmente */
+}
+
+/* Define o estilo para inputs e textareas dentro de formulários */
+form input, form textarea {
+    margin-bottom: 10px; /* Adiciona espaçamento inferior aos inputs e textareas */
+    padding: 10px; /* Adiciona espaçamento interno aos inputs e textareas */
+}
+
+/* Define o estilo para o rodapé */
+footer {
+    text-align: center; /* Centraliza o conteúdo do rodapé */
+    padding: 10px; /* Adiciona espaçamento interno ao rodapé */
+    background-color: #141414; /* Define o fundo do rodapé */
+}
+
+/* Define o estilo para imagens de redes sociais */
+.social-media img {
+    width: 30px; /* Define a largura das imagens */
+    height: 30px; /* Define a altura das imagens */
+    margin: 5px; /* Adiciona espaçamento entre as imagens */
+}
+
+/* Define o estilo para listas */
+li {
+    list-style: none; /* Remove os marcadores de lista padrão */
+}
